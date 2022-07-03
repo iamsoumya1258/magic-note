@@ -31,7 +31,9 @@ addBtn.addEventListener("click", function (e) {
   //after click add note button make txt area blank
   addTxt.value = " ";
   titleTxt.value=" "; 
+
   showNotes();
+  location.reload();
 });
 
 
